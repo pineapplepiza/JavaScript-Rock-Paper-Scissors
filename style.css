@@ -1,0 +1,40 @@
+
+body {
+    background-color: rgb(243,181,255);
+}
+
+button {
+    border-radius: 8px;
+    border: 2px solid red;
+}
+
+button:hover {
+    background-color: red;
+}
+
+.main {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    height: 600px;  
+}
+
+#score {
+    padding: 20px;
+}
+
+#winner {
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    border: 3px solid #dbff63 ;
+    border-radius: 5px;
+    color: black;
+    /* background-color: white; */
+}
+
+#container {
+    justify-content: space-around;
+    padding: 20px;
+}
